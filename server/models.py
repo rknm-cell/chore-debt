@@ -19,8 +19,9 @@ class Chore(db.Model):
     name = db.Column(db.String)
     description = db.Column(db.String)
     value = db.Column(db.Integer)
+    completed = db.Column(db.Boolean)
 
-    
+
 
 class ChoreList(db.Model):
     __tablename__ = 'chorelists'
@@ -28,3 +29,4 @@ class ChoreList(db.Model):
     name = db.Column(db.String)
     user_id = db.Column(db.Integer, db.ForeigKey('users.id'))
     chore_id = db.Column(db.Integer, db.ForeignKey('chores.id'))
+    value = db.Column(db.Integer)
