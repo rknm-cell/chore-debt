@@ -10,4 +10,7 @@ with app.app_context():
     User.query.delete()
     Chore.query.delete()
     ChoreList.query.delete()
+
+    Chore1 = ["Dishes", "Empty out dishrack and do dirty dishes", 3, False]
+    Chore2 = ["Vacuum", ]
 # Models go here!

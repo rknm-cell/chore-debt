@@ -19,7 +19,9 @@ class Chore(db.Model):
     name = db.Column(db.String)
     description = db.Column(db.String)
     value = db.Column(db.Integer)
+    frequency = db.Column(db.Integer)
     completed = db.Column(db.Boolean)
+
 
 
 
