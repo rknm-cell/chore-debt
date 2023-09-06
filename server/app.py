@@ -14,7 +14,7 @@ from config import app, db, api
 # Add your model imports
 CORS(app)
 
-db.init_app(app)
+
 
 # Views go here!
 

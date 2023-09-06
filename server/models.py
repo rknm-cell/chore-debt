@@ -23,7 +23,9 @@ class Chore(db.Model):
     completed = db.Column(db.Boolean)
 
 
-
+class HouseHold(db.Model):
+    __tablename__ = 'households'
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
 
 class ChoreList(db.Model):
     __tablename__ = 'chorelists'
@@ -32,3 +34,5 @@ class ChoreList(db.Model):
     user_id = db.Column(db.Integer, db.ForeigKey('users.id'))
     chore_id = db.Column(db.Integer, db.ForeignKey('chores.id'))
     value = db.Column(db.Integer)
+
+# create table for chorelist and chores
