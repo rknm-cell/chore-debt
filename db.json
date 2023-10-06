@@ -1,0 +1,42 @@
+{"chores":
+[
+{
+    
+    "name":"laundry",
+    "description":"Washing dirty clothes, folding them, and putting them away",
+    "points":"5"
+    
+},
+{
+    "name":"dishes",
+    "description": "washing the dishes and clearing out the dishrack",
+    "points": "3"
+},
+{
+    "name": "bathroom",
+    "description": "clean bathroom floor, sink, bathtub, and toilet",
+    "points": "7"
+},
+{
+    "name": "kitchen",
+    "description": "clean counter tops and stovetop",
+    "points": "2"
+},
+{
+    "name": "vacuum living room",
+    "description": "thoroughly vacuum rug and living room floor",
+    "points": "3"
+},
+{
+    "name": "litterbox maintenance",
+    "description": "sift litterbox",
+    "points": "2"
+},
+{
+    "name": "litterbox cleaning",
+    "description": "replace litter",
+    "points": "5"
+}
+]
+
+}
