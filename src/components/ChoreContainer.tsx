@@ -1,7 +1,13 @@
 import React from 'react'
 import ChoreCard from './ChoreCard'
 
-const ChoreContainer = () => {
+const ChoreContainer = (chores) => {
+
+  function renderChores(){
+    return (
+      chores.map((chore))
+    )
+  }
   return (
     <>
     <ChoreCard />
