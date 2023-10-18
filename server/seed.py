@@ -20,6 +20,6 @@ with app.app_context():
     Chore7 = ["Make bed", "Make the bed, tucking in sheets, and organizing pillows", 1, False ]
     Chore8 = ["Feed the boys", "Give the cats food", 1, False]
     Chore9 = ["Wash laundry", "Sort and wash laundry", 3, False]
-    ChoreList1 = []
+    ChoreList1 = [Chore1, Chore2, Chore3, Chore4, Chore5, Chore6, Chore7, Chore8, Chore9]
 
 # Models go here!
